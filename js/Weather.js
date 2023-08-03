@@ -13,7 +13,7 @@ async function getTemp(index) {
         let days = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday","Saturday"];
          let nextDay = days[today.getDay() +1];
          let dayAfterTommoro = days[today.getDay() +2];
-         if(dayAfterTommoro === undefined && nextDay === undefined){
+         if(dayAfterTommoro === undefined || nextDay === undefined){
          dayAfterTommoro = days[0]
          }
         let trs = `
