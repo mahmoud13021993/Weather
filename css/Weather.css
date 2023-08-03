@@ -1,0 +1,96 @@
+body {
+    /* background-color: #005986 !important; */
+ background-image: linear-gradient(0deg,#d8eeee,#d8eeee 25%,#64b3c9 65%,#005986 90%,#005986);
+
+}
+body > div > nav > div > a > small{
+   left: 70px !important;
+   font-size: 10px;
+   font-family: 'Roboto', sans-serif;
+}
+.nav-link {
+    transition: 0.3s;
+}
+.nav-link:hover,.nav-link.active {
+    border: 2px solid #fff;
+    border-radius:20px ;
+    color: #fff !important;
+}
+.nav-link {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    padding-inline: 20px !important;
+    padding-block: 5px;
+
+}
+header {
+    /* background-image: url(../images/banner.png); */
+    background-size: cover;
+    background-position: center center;
+    height: 40vh;
+    width: 100%;
+}
+
+#searchBtn,#subscribeBtn {
+ margin-left: -85px;
+ margin-top: 27px;
+ z-index: 9999;
+ height: 35px !important;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.weatherInfo {
+    margin-top: -80px;
+}
+#degree {
+    font-size: 90px;
+}
+.weatherInfo-item {
+    height: 300px;
+}
+
+footer {
+    height: 200px;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.4) !important;
+}
+.head {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff !important;
+}
+#subscribeBtn {
+    margin-left: -125px !important;
+}
+footer input {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+}
+::placeholder {
+    color: white !important;
+}
+#item {
+    background-image: linear-gradient(297deg,#d8eeee,#d8eeee 25%,#64b3c9 65%,#005986 90%,#005986); 
+}
+.links span:hover {
+    background-color: #0B5ED7;
+}
+.links span:hover i {
+    color: white!important;
+}
+.links span i {
+    transition: color 0.3s ;
+}
+.links span {
+    background-color: rgba(0, 0, 0, 0.4); 
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ;
+}
