@@ -14,7 +14,7 @@ async function getTemp(index) {
          let nextDay = days[today.getDay() +1];
          let dayAfterTommoro = days[today.getDay() +2];
          if(dayAfterTommoro === undefined || nextDay === undefined){
-         dayAfterTommoro = days[0]
+         dayAfterTommoro = days[0+2]
          }
         let trs = `
         <div id="item" class="col-md-4 bg-tranparnt ">
